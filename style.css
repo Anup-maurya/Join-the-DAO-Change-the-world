@@ -1,0 +1,80 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    padding: 10px 40px;   
+    align-items: center;
+}
+
+nav >div>img{
+    height: 40px;
+}
+
+ul{
+    display: flex;
+   margin-left: -344px;
+}
+
+li{
+   list-style: none;
+    margin-left: 30px;
+    color: aliceblue;
+}
+
+.button-small{
+    float: right;
+    padding: 7px 30px;
+    color: aliceblue;
+    background-color:rgb(182, 16, 140);
+    border-radius: 0.3rem;
+}
+.line{
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 25px;   
+    padding-top: 11px;  
+    margin-left: -110px;
+   
+}
+
+.hero{
+    background-image: url(./assets/bg.png);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
+.button-large{
+    margin: 30px 0px;
+    padding: 17px 50px;
+    color: aliceblue;
+    background-color: rgb(182, 16, 140);
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 20px;
+}
+
+
+.hero-heading{
+    font-size: 60px;
+    margin-top: 150px;
+    justify-content: center;
+    color: aliceblue;
+    width: 50%;
+    text-align: center;
+
+}
+
+.hero-description{
+    color: aliceblue;
+    margin-bottom: 30px;
+}
